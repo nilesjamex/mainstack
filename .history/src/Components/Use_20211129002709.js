@@ -1,0 +1,62 @@
+import React from 'react';
+import styled from 'styled-components';
+import Joseph from './../Images/joseph.jpg'
+
+const Use = () => {
+    return (
+        <Usestyled>
+        <div className="use">
+            <div className="useText">
+            <div>
+            <h5>Conversations designed for people, not bots.</h5>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do 
+            amet sint. Velit officia consequat duis enim velit mollit. Exercitation 
+            veniam consequat sunt nostrud amet.Amet minim</p>
+            </div>
+            <div>
+            <button>Get started</button>
+            </div>
+            </div>
+            <div> <img src={Joseph} alt="" /> </div>
+            <div> <img src={Joseph} alt="" /> </div>
+        </div>
+        </Usestyled>
+    )
+}
+const Usestyled = styled.div`
+     padding: 0 10rem;
+.use {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    background: linear-gradient(180deg, #22252D 0%, #0A0C10 100%);
+    border-radius: 30px;
+    padding: 2rem 0;
+}
+.useText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h5 {
+        font-family: Plus Jakarta Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 52px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        letter-spacing: -0.01em;
+        color: #797D87;
+
+    }
+}
+`
+export default Use
