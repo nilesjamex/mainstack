@@ -169,7 +169,7 @@ const Socials = styled.div`
      margin: 0;
  }
  img {
-     width: 70%;
+     width: 50%;
  }
  }
 `

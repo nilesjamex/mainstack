@@ -168,9 +168,6 @@ const Socials = styled.div`
      width: 100%;
      margin: 0;
  }
- img {
-     width: 70%;
- }
  }
 `
 export default Social

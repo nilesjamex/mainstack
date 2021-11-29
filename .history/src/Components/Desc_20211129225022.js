@@ -1,24 +1,22 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Desc = () => {
-  return (
-    <Descstyled>
-      <div>
-        <h5>
-          Conversations designed for <span>people, not bots.</span>
-        </h5>
-        <p>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam
-        </p>
-      </div>
-    </Descstyled>
-  );
-};
+    return (
+        <Descstyled>
+        <div>
+            <h5>
+            Conversations designed for <span>people, not bots.</span>
+            </h5>
+            <p>Amet minim mollit non deserunt ullamco 
+            est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+             velit mollit. Exercitation veniam</p>
+        </div>
+        </Descstyled>
+    )
+}
 const Descstyled = styled.div`
-  padding: 0;
+      padding: 0;
   margin-top: 100px;
   h5 {
     font-family: "JakartaBold", sans-serif;
@@ -59,5 +57,5 @@ const Descstyled = styled.div`
       padding: 0;
     }
   }
-`;
-export default Desc;
+`
+export default Desc

@@ -132,13 +132,13 @@ const Introo = styled.div`
     height: 30px;
     align-self: flex-start;
     position: relative;
-    right: 36%;
-    top: 13rem;
+    right: 25%;
+    top: 17rem;
   }
   .img5 {
     height: 30px;
     position: relative;
-    left: 30%;
+    left: 25%;
     top: 7rem;
   }
   .img6 {

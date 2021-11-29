@@ -114,7 +114,7 @@ const Socials = styled.div`
     background-color: #ffffff;
     margin: 1.5rem;
     width: auto;
-    padding: 5rem 4rem 0 4rem;
+    padding: 5rem 4rem;
     border-radius: 30px;
   }
   .payInfo__text {
@@ -167,9 +167,6 @@ const Socials = styled.div`
  .payInfo {
      width: 100%;
      margin: 0;
- }
- img {
-     width: 70%;
  }
  }
 `

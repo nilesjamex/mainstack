@@ -138,7 +138,7 @@ const Introo = styled.div`
   .img5 {
     height: 30px;
     position: relative;
-    left: 30%;
+    left: 25%;
     top: 7rem;
   }
   .img6 {
