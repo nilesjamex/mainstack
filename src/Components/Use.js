@@ -44,7 +44,7 @@ const Usestyled = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 2rem 0 0;
+    padding: 1rem 0 0;
     text-align: left;
 
     h5 {
@@ -84,10 +84,7 @@ const Usestyled = styled.div`
     }
     }
    
-    .useText {
-        padding: 0;
-        text-align: left;
-    }
+    
 }
 `
 export default Use
