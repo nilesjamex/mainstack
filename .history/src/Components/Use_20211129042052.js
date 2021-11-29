@@ -79,14 +79,13 @@ const Usestyled = styled.div`
     .use {
         flex-direction: column;
         padding: 0;
-         img {
+    }
+    img {
         margin: 0.7rem 0rem;
     }
-    }
-   
     .useText {
         padding: 0;
-        text-align: left;
+        margin: 0;
     }
 }
 `

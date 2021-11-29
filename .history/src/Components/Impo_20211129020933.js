@@ -1,42 +1,47 @@
 import React from 'react';
-import styled from 'styled-components';
-import Joseph from './../Images/joseph.jpg'
+import  styled from 'styled-components';
+import Phone from './../Images/phone.png'
 
-const Use = () => {
+const Impo = () => {
     return (
-        <Usestyled>
-        <div className="use">
+        <Impostyled>
+            <div className="use">
             <div className="useText">
             <div>
-            <h5>Conversations designed for people, not bots.</h5>
-            <p className="useText__sub">Amet minim mollit non deserunt ullamco est sit aliqua dolor do 
-            amet sint. Velit officia consequat duis enim velit mollit. Exercitation 
-            veniam consequat sunt nostrud amet.Amet minim</p>
+            <h6>Set up all your media links</h6>
+            </div>
+            <div>
+            <h5>See your most important <span>conversations first.</span></h5>
+            <p className="useText__sub">See your most important conversations first.
+             Snooze, archive, or jump back in.
+             Activity Feed always keeps your conversations within reach, so you can quickly </p>
             </div>
             <div>
             <button>Get started</button>
             </div>
             </div>
-            <div> <img src={Joseph} alt="" /> </div>
-            <div> <img src={Joseph} alt="" /> </div>
+            <div> <img src={Phone} alt="" /> </div>
         </div>
-        </Usestyled>
+        </Impostyled>
     )
 }
-const Usestyled = styled.div`
-     padding: 0 13rem;
+const Impostyled = styled.div`
+ padding: 3rem 13rem;
 .use {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    background: linear-gradient(180deg, #22252D 0%, #0A0C10 100%);
+    background: #FFFFFF;
     border-radius: 30px;
     padding: 2rem 0;
 
     img {
         margin: 0 5rem;
     }
+}
+span {
+     color : #C91C5A;
 }
 .useText {
     display: flex;
@@ -54,7 +59,7 @@ const Usestyled = styled.div`
         font-size: 3rem;
         line-height: 52px;
         letter-spacing: -0.02em;
-        color: #FFFFFF;
+        color: #020409;
     }
     p {
         font-family: Inter;
@@ -63,31 +68,26 @@ const Usestyled = styled.div`
         font-size: 1.2rem;
         line-height: 2rem;
         letter-spacing: -0.01em;
-        color: #797D87;
-        margin-top: 5rem;
+        color: #6F778A;
+        margin-top: 3rem;
 
+    }
+    h6 {
+       font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        letter-spacing: -0.01em;
+        color: #505A73; 
     }
     button {
         width: 8rem;
         height: 3rem;
-        background: #F7F9FC;
+        background: #020409;
+        color: #FFF;
         border-radius: 100px;
     }
 }
-@media only screen and (max-width: 900px) {
-    padding: 0;
-    .use {
-        flex-direction: column;
-        padding: 0;
-         img {
-        margin: 0.7rem 0rem;
-    }
-    }
-   
-    .useText {
-        padding: 0;
-        text-align: left;
-    }
-}
 `
-export default Use
+export default Impo

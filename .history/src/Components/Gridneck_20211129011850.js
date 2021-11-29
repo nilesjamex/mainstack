@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import Joseph from './../Images/joseph.jpg'
+import Man from './../Images/man.png';
+import Woman from './../Images/man.png';
+import Bigb from './../Images/bigb.png';
 
-const Use = () => {
+const Gridneck = () => {
     return (
-        <Usestyled>
-        <div className="use">
-            <div className="useText">
+        <Grid>
+         <div className="use">
+            <div className="gridText">
             <div>
             <h5>Conversations designed for people, not bots.</h5>
             <p className="useText__sub">Amet minim mollit non deserunt ullamco est sit aliqua dolor do 
@@ -17,14 +19,15 @@ const Use = () => {
             <button>Get started</button>
             </div>
             </div>
-            <div> <img src={Joseph} alt="" /> </div>
-            <div> <img src={Joseph} alt="" /> </div>
+            <div> <img src={Woman} alt="" /> </div>
+            <div> <img src={Man} alt="" /> </div>
+            <div> <img src={Bigb} alt="" /> </div>
         </div>
-        </Usestyled>
+            
+        </Grid>
     )
 }
-const Usestyled = styled.div`
-     padding: 0 13rem;
+const Grid = styled.div`
 .use {
     display: flex;
     flex-direction: row;
@@ -38,7 +41,7 @@ const Usestyled = styled.div`
         margin: 0 5rem;
     }
 }
-.useText {
+.gridText {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -74,20 +77,5 @@ const Usestyled = styled.div`
         border-radius: 100px;
     }
 }
-@media only screen and (max-width: 900px) {
-    padding: 0;
-    .use {
-        flex-direction: column;
-        padding: 0;
-         img {
-        margin: 0.7rem 0rem;
-    }
-    }
-   
-    .useText {
-        padding: 0;
-        text-align: left;
-    }
-}
 `
-export default Use
+export default Gridneck

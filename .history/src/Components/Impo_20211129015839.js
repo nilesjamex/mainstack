@@ -1,11 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
-import Joseph from './../Images/joseph.jpg'
+import  styled from 'styled-components';
+import Phone from './../Images/phone.png'
 
-const Use = () => {
+const Impo = () => {
     return (
-        <Usestyled>
-        <div className="use">
+        <Impostyled>
+            <div className="use">
             <div className="useText">
             <div>
             <h5>Conversations designed for people, not bots.</h5>
@@ -17,14 +17,13 @@ const Use = () => {
             <button>Get started</button>
             </div>
             </div>
-            <div> <img src={Joseph} alt="" /> </div>
-            <div> <img src={Joseph} alt="" /> </div>
+            <div> <img src={Phone} alt="" /> </div>
         </div>
-        </Usestyled>
+        </Impostyled>
     )
 }
-const Usestyled = styled.div`
-     padding: 0 13rem;
+const Impostyled = styled.div`
+ padding: 3 13rem;
 .use {
     display: flex;
     flex-direction: row;
@@ -74,20 +73,5 @@ const Usestyled = styled.div`
         border-radius: 100px;
     }
 }
-@media only screen and (max-width: 900px) {
-    padding: 0;
-    .use {
-        flex-direction: column;
-        padding: 0;
-         img {
-        margin: 0.7rem 0rem;
-    }
-    }
-   
-    .useText {
-        padding: 0;
-        text-align: left;
-    }
-}
 `
-export default Use
+export default Impo

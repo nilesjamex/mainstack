@@ -73,9 +73,7 @@ span {
     outline: none;
 }
 @media only screen and (max-width: 900px) {
-    .introText {
-        padding: 0;
-    }
+    padding: 0;
 }
 `
 export default Intro

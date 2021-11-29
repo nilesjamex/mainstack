@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import Joseph from './../Images/joseph.jpg'
+import Man from './../Images/man.png';
+import Woman from './../Images/woman.png';
+import Bigb from './../Images/bigb.png';
 
-const Use = () => {
+const Gridneck = () => {
     return (
-        <Usestyled>
-        <div className="use">
-            <div className="useText">
+        <Grid>
+         <div className="use">
+            <div className="gridText">
             <div>
             <h5>Conversations designed for people, not bots.</h5>
             <p className="useText__sub">Amet minim mollit non deserunt ullamco est sit aliqua dolor do 
@@ -17,28 +19,28 @@ const Use = () => {
             <button>Get started</button>
             </div>
             </div>
-            <div> <img src={Joseph} alt="" /> </div>
-            <div> <img src={Joseph} alt="" /> </div>
+            <div className="gridImage">
+            <div> <img src={Woman} alt="" /> </div>
+            <div> <img src={Man} alt="" /> </div>
+            <div> <img src={Bigb} alt="" /> </div>
+            </div>
         </div>
-        </Usestyled>
+            
+        </Grid>
     )
 }
-const Usestyled = styled.div`
+const Grid = styled.div`
      padding: 0 13rem;
 .use {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    background: linear-gradient(180deg, #22252D 0%, #0A0C10 100%);
+    background:  linear-gradient(180deg, #C91C5A 0%, #920034 100%);;
     border-radius: 30px;
     padding: 2rem 0;
-
-    img {
-        margin: 0 5rem;
-    }
 }
-.useText {
+.gridText {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -74,20 +76,12 @@ const Usestyled = styled.div`
         border-radius: 100px;
     }
 }
-@media only screen and (max-width: 900px) {
-    padding: 0;
-    .use {
-        flex-direction: column;
-        padding: 0;
-         img {
-        margin: 0.7rem 0rem;
-    }
-    }
-   
-    .useText {
-        padding: 0;
-        text-align: left;
-    }
+.gridImage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat(2, 1fr 200px);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
 }
 `
-export default Use
+export default Gridneck

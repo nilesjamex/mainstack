@@ -86,7 +86,7 @@ const Usestyled = styled.div`
    
     .useText {
         padding: 0;
-        text-align: left;
+        text-align: center;
     }
 }
 `

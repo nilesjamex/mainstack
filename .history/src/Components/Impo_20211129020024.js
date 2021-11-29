@@ -1,30 +1,29 @@
 import React from 'react';
-import styled from 'styled-components';
-import Joseph from './../Images/joseph.jpg'
+import  styled from 'styled-components';
+import Phone from './../Images/phone.png'
 
-const Use = () => {
+const Impo = () => {
     return (
-        <Usestyled>
-        <div className="use">
+        <Impostyled>
+            <div className="use">
             <div className="useText">
             <div>
-            <h5>Conversations designed for people, not bots.</h5>
-            <p className="useText__sub">Amet minim mollit non deserunt ullamco est sit aliqua dolor do 
-            amet sint. Velit officia consequat duis enim velit mollit. Exercitation 
-            veniam consequat sunt nostrud amet.Amet minim</p>
+            <h5>See your most important conversations first.</h5>
+            <p className="useText__sub">See your most important conversations first.
+             Snooze, archive, or jump back in.
+             Activity Feed always keeps your conversations within reach, so you can quickly </p>
             </div>
             <div>
             <button>Get started</button>
             </div>
             </div>
-            <div> <img src={Joseph} alt="" /> </div>
-            <div> <img src={Joseph} alt="" /> </div>
+            <div> <img src={Phone} alt="" /> </div>
         </div>
-        </Usestyled>
+        </Impostyled>
     )
 }
-const Usestyled = styled.div`
-     padding: 0 13rem;
+const Impostyled = styled.div`
+ padding: 3rem 13rem;
 .use {
     display: flex;
     flex-direction: row;
@@ -74,20 +73,5 @@ const Usestyled = styled.div`
         border-radius: 100px;
     }
 }
-@media only screen and (max-width: 900px) {
-    padding: 0;
-    .use {
-        flex-direction: column;
-        padding: 0;
-         img {
-        margin: 0.7rem 0rem;
-    }
-    }
-   
-    .useText {
-        padding: 0;
-        text-align: left;
-    }
-}
 `
-export default Use
+export default Impo

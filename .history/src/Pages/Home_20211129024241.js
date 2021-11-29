@@ -7,7 +7,6 @@ import Desc from './../Components/Desc';
 import Gridneck from './../Components/Gridneck';
 import Impo from './../Components/Impo';
 import Payment from './../Components/Payment';
-import Social from './../Components/Social';
 
 const Home = () => {
     return (
@@ -17,7 +16,6 @@ const Home = () => {
             <Use />
             <Desc />
             <Gridneck />
-            <Social />
             <Impo />
             <Payment />
         </Homee>

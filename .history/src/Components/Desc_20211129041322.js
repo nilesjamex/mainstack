@@ -42,10 +42,7 @@ const Descstyled = styled.div`
       color : #C91C5A;
   }
   @media only screen and (max-width: 900px) {
-      padding: 0;
-      p {
-          padding: 0;
-      }
+      padding: 1rem;
   }
 `
 export default Desc

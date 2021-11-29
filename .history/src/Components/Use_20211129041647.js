@@ -75,18 +75,10 @@ const Usestyled = styled.div`
     }
 }
 @media only screen and (max-width: 900px) {
-    padding: 0;
+    padding: o;
     .use {
         flex-direction: column;
         padding: 0;
-         img {
-        margin: 0.7rem 0rem;
-    }
-    }
-   
-    .useText {
-        padding: 0;
-        text-align: left;
     }
 }
 `
