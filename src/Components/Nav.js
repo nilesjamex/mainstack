@@ -74,6 +74,18 @@ const Bar = styled.div`
     height: 3rem;
     color: #fff;
 }
+
+@media screen and (max-width: 900px) {
+    .navButtons__signIn {
+    display: none;
+}
+.navButtons__create {
+    display: none;
+}
+.navOptions {
+    display: none;
+}
+}
 `
 
 export default Nav
