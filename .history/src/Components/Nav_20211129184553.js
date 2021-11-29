@@ -48,7 +48,6 @@ const Bar = styled.div`
 .navOptions {
     display: flex;
     gap: 20px;
-    margin-left: 1rem;
     align-items: center;
 
     h4 {

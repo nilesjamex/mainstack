@@ -54,7 +54,7 @@ const Pay = styled.div`
          color: #4360FD;
      }
      h5 {
-         font-family: 'Inter', sans-serif;
+         font-family: Inter;
          font-style: normal;
          font-weight: 600;
          font-size: 20px;

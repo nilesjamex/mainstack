@@ -38,8 +38,7 @@ const Bar = styled.div`
     justify-content: space-between;
     align-items: center;
     height: 8vh;
-    max-width: 1240px;
-    margin: 0 auto;
+    margin: 0 1.3rem;
 }
 .navLogoText {
     display: flex;
@@ -47,8 +46,7 @@ const Bar = styled.div`
 }
 .navOptions {
     display: flex;
-    gap: 20px;
-    margin-left: 1rem;
+    margin-left: 3rem;
     align-items: center;
 
     h4 {

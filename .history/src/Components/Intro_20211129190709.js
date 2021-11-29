@@ -84,7 +84,6 @@ span {
     border-radius: 100px;
     margin-right: 0.5rem;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
 }
 .introForm__Create {
     width: 11rem;
@@ -93,7 +92,6 @@ span {
     border-radius: 100px;
     margin-right: 0.5rem;
     outline: none;
-    font-family: 'Inter', sans-serif;
 }
 .imgFlex {
     display: flex;

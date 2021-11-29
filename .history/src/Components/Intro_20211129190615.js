@@ -52,7 +52,7 @@ span {
     padding: 0 31rem;
     margin-top: 3rem;
     h3 {
-       font-family: 'Inter', sans-serif;
+        font-family: Plus Jakarta Display;
         font-style: normal;
         font-weight: bold;
         font-size: 3.25rem;
@@ -84,7 +84,6 @@ span {
     border-radius: 100px;
     margin-right: 0.5rem;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
 }
 .introForm__Create {
     width: 11rem;
@@ -93,7 +92,6 @@ span {
     border-radius: 100px;
     margin-right: 0.5rem;
     outline: none;
-    font-family: 'Inter', sans-serif;
 }
 .imgFlex {
     display: flex;
