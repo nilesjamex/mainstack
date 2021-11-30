@@ -44,7 +44,7 @@ const Usestyled = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 1rem 0 0;
+    padding: 1rem 0;
     text-align: left;
 
     h5 {
@@ -53,6 +53,7 @@ const Usestyled = styled.div`
       font-weight: bold;
       font-size: 2.5rem;
       color: #ffffff;
+      margin-right: 4rem;
       line-height: 52px;
     }
     p {
@@ -78,10 +79,14 @@ const Usestyled = styled.div`
     padding: 0;
     .use {
         flex-direction: column;
+        align-items: center;
         padding: 0;
          img {
         margin: 0.7rem 0rem;
     }
+    }
+    .useText {
+      align-items: center;
     }
    
     
