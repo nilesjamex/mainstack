@@ -150,11 +150,13 @@ const Introo = styled.div`
 @media only screen and (max-width: 900px) {
     .introText {
         padding: 0;
+        line-height: 2.5rem;
         h3 {
             font-size: 1.8rem;
         }
         p {
             font-size: 1rem;
+            padding: 0 30px;
         }
     }
     .introForm__Create {
