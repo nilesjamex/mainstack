@@ -10,7 +10,7 @@ const Nav = () => {
   };
 
   if (active) {
-    body.style.cssText = "overflow:hidden;";
+    body.style.cssText = "overflow-y:hidden;";
   } else {
     body.style.cssText = "overflow:none;";
   }
@@ -75,8 +75,6 @@ const Nav = () => {
             </li>
           </ul>
        
-
-       
         <div
           className={`toggle ${active ? `toggleanime` : ""}`}
           onClick={onClick}
@@ -110,16 +108,19 @@ const Bar = styled.div`
       justify-content: space-between;
     }
     ul {
-      display: none;
        font-family: "Inter", sans-serif;
-       font-size: 1.5rem;
+       font-size: 1.1rem;
+       display: flex;
+      gap: 30px;
+      align-items: center;
     }
-    .navOptions {
+    
+    /* .navOptions {
       display: flex;
       gap: 30px;
       margin-left: 1rem;
       align-items: center;
-    }
+    } */
 
       a {
         font-family: Inter;
