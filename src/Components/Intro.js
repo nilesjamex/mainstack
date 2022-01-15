@@ -26,10 +26,16 @@ const Intro = () => {
             productivity with just one click to boost conversion rate.
             </p>
             <div className="introForm">
-            <input className="introForm__Input" type="text" value="mainstack.app/" placeholder="yourname" id="" />
-            <img style={{position: "relative", right: "2rem", top: "0.1rem"}} src={Check} alt="" />
+            <div className="introflex">
+            <div className="introForm__text"><p>mainstack.app/</p></div>
+            <input className="introForm__Input" type="text" placeholder="yourname" id="" />
+            <img style={{position: "relative", right: "2rem", top: "0.1rem", padding: "2rem 0", marginRight: "1rem"}} src={Check} alt="" />
+            </div>
+            <div className="introForm__input2">
             <button className="introForm__Create">Create your stack</button>
             </div>
+            </div>
+            
             </div>
             <div className="imgFlex">
             <img className="img2" src={Youtube} alt="" />
@@ -76,14 +82,29 @@ const Introo = styled.div`
 
   .introForm {
     margin-top: 3rem;
+    
+  }
+  .introflex {
+     display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .introForm__text {
+    height: 65px;
+    background: #dde3f0;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 1rem;
   }
   .introForm__Input {
     width: 341px;
-    height: 72px;
+    height: 65px;
     margin-right: 0.5rem;
     background: #dde3f0;
-    border-radius: 100px;
+     border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
     border: none;
+    border-left: none;
     outline: none;
     font-size: 1.25rem;
     padding-left: 20px;
@@ -91,7 +112,7 @@ const Introo = styled.div`
   .introForm__Create {
     width: 234px;
     height: 72px;
-
+    display: block;
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
@@ -101,6 +122,10 @@ const Introo = styled.div`
     color: white;
     border-radius: 100px;
     margin-right: 0.5rem;
+  }
+  .introForm__input2 {
+    display: flex;
+    justify-content: center;
   }
   .imgFlex {
     display: flex;

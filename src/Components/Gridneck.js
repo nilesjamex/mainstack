@@ -65,6 +65,7 @@ const Grid = styled.div`
     align-items: flex-start;
     padding: 1rem 0;
     text-align: left;
+    width: 40%;
 
     h5 {
       font-family: "JakartaBold", sans-serif;
@@ -120,6 +121,7 @@ const Grid = styled.div`
     align-items: center;
     padding: 1rem 0;
     text-align: center;
+
 
     h5 {
       font-family: "JakartaBold", sans-serif;

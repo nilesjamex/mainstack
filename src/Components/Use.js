@@ -47,6 +47,7 @@ const Usestyled = styled.div`
     align-items: flex-start;
     padding: 1rem 0;
     text-align: left;
+    width: 40%;
 
     h5 {
       font-family: "JakartaBold", sans-serif;
