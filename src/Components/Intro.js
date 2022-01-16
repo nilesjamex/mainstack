@@ -95,6 +95,7 @@ const Introo = styled.div`
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
     padding-left: 1rem;
+    font-size: 1.25rem;
   }
   .introForm__Input {
     width: 341px;
@@ -231,6 +232,9 @@ const Introo = styled.div`
     .introForm__Input {
         width: 90%;
         height: 3rem;
+    }
+    .introForm__text {
+      height: 3rem;
     }
      .introForm__Create {
         width: 90%;
