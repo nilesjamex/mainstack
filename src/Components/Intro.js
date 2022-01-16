@@ -29,7 +29,7 @@ const Intro = () => {
             <div className="introflex">
             <div className="introForm__text"><p>mainstack.app/</p></div>
             <input className="introForm__Input" type="text" placeholder="yourname" id="" />
-            <img style={{position: "relative", right: "2rem", top: "0.1rem", padding: "2rem 0", marginRight: "1rem"}} src={Check} alt="" />
+            {/* <img style={{position: "relative", right: "2rem", top: "0.1rem", padding: "2rem 0", marginRight: "1rem"}} src={Check} alt="" /> */}
             </div>
             <div className="introForm__input2">
             <button className="introForm__Create">Create your stack</button>
@@ -95,7 +95,13 @@ const Introo = styled.div`
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
     padding-left: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+
+    p {
+      
+    }
   }
   .introForm__Input {
     width: 341px;
@@ -111,14 +117,14 @@ const Introo = styled.div`
     padding-left: 20px;
   }
   .introForm__Create {
-    width: 234px;
-    height: 72px;
+     width: 341px;
+    height: 65px;
     display: block;
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 24px;
-
+    margin: 1rem;
     background: #c91c5a;
     color: white;
     border-radius: 100px;
@@ -235,6 +241,10 @@ const Introo = styled.div`
     }
     .introForm__text {
       height: 3rem;
+      width: 200px;
+      p {
+        align-self: center;
+      }
     }
      .introForm__Create {
         width: 90%;
