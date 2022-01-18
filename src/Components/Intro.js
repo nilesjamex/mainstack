@@ -87,6 +87,7 @@ const Introo = styled.div`
   .introflex {
      display: flex;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
   }
   .introForm__text {
@@ -100,7 +101,9 @@ const Introo = styled.div`
     align-items: center;
 
     p {
-      
+      font-size: 1.25rem;
+      display: flex;
+      align-items: center;
     }
   }
   .introForm__Input {
@@ -129,6 +132,14 @@ const Introo = styled.div`
     color: white;
     border-radius: 100px;
     margin-right: 0.5rem;
+    transition: 0.5s ease-out;
+
+    &:hover {
+      width: 370px;
+    height: 75px;
+    margin: 1.2rem;
+    opacity: 0.8;
+    }
   }
   .introForm__input2 {
     display: flex;
